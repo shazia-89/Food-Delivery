@@ -6,7 +6,7 @@ A modern food delivery web application built with MERN stack.
 
 ### For Users
 - User Registration & Login
-- Browse Food Menu  
+- Browse Food Menu
 - Add to Cart
 - Place Orders
 - Secure Payments
@@ -23,9 +23,15 @@ A modern food delivery web application built with MERN stack.
 **Database:** MongoDB  
 **Authentication:** JWT
 
-## Installation
+## Installation & Setup
 
-1. **Clone the repository**
+1. **Clone and install dependencies**
 ```bash
-git clone https://github.com/shazia-89/back_end.git
-cd back_end
+git clone https://github.com/shazia-89/Food-Delivery.git
+cd Food-Delivery
+
+# Backend
+cd backend && npm install
+
+# Frontend  
+cd frontend && npm install
