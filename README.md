@@ -13,9 +13,3 @@ A modern food delivery web application built with MERN stack.
 
 ### For Admin
 - Manage Products
-
-## Contributors
-
-A big thank you to the following contributor who helped make this project possible:
-
-- **[Shazia](https://github.com/shazia)** - For their valuable contributions to the project.
