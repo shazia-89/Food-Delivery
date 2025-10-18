@@ -32,3 +32,8 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Server Started on port: ${port}`);
 });
+
+app.use(cors({
+    origin: "http://localhost:5173",
+    credentials: true
+}));

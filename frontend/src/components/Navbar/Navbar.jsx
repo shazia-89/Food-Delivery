@@ -19,7 +19,7 @@ const Navbar = ({ setShowLogin }) => {
   return (
     <div className="navbar">
       <Link to="/">
-        <img src={assets.logo} alt="" className="logo" />
+        <h2 className="navbar-logo">Food Delivery</h2>
       </Link>
       <ul className="navbar-menu">
         <Link
@@ -43,13 +43,7 @@ const Navbar = ({ setShowLogin }) => {
         >
           mobile-app
         </a>
-        <a
-          href="#footer"
-          onClick={() => setMenu("contact-us")}
-          className={menu === "contact-us" ? "active" : ""}
-        >
-          contact us
-        </a>
+        {/* Contact Us حذف شد */}
       </ul>
       <div className="navbar-right">
         <img src={assets.search_icon} alt="" />
